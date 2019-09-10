@@ -1,0 +1,67 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Formulário</title>
+    </head>
+    <body>
+        <h1 align="center"><strong><em>Formulário de Cadastro Pessoa Física</em></strong></h1>
+        <form>
+            <p>
+                <label>Nome:
+                    <input type="text" name="nome" size="40"/></label>
+            </p>
+            <p>
+                <label>CPF: 
+                    <input type="text" name="cpf" size="15"></label>
+            </p>
+            <p>
+                <label>RG:
+                    <input type="text" name="rg" size="15"></label>
+            </p>
+            <br>Sexo:
+            <br>
+                <label>
+                    <input type="radio" name="Sexo" value="M"/>Masculino</label>
+            </p>
+            <label>
+                <input type="radio" name="Sexo" Value="F"/>Feminino</label>
+                <br><p>
+                    <label>Estado:
+                        <select name="estado">
+                            <option value="sp">São Paulo</option>
+                            <option value="rj">Rio de Janeiro</option>
+                            <option value="es">Espirito Santo</option>
+                            <option value="mg">Minas Gerais</option>
+                            <option value="pr">Paraná</option>
+                            <option value="sc">Santa Catarina</option>
+                            <option value="rs">Rio Grande do Sul</option>
+                        </select></label>
+                </p>
+                <p>
+                <label>Estado Civil:
+                    <select name="civil">
+                        <option value="solteiro">Solteiro</option>
+                        <option value="casado">Casado</option>
+                        <option value="viuvo">Viúvo</option>
+                        <option value="divorciado">Divorciado</option>
+                        <option value="outros">Outros</option>
+                    </select>
+                </label>
+            </p>
+            <p>
+                <label>Peso:<input type="text" name="peso"/></label>
+            </p>
+            <p>
+                <label>Altura:<input type="text" name="altura"/></label>
+            </p>
+            <p>
+                <label>
+                    <input type="submit" name="Cadastrar" value="Cadastrar">
+                </label>
+                <label>
+                    <input type="reset" name="Limpar" value="Limpar">
+                </label>
+            </p>
+        </form>
+    </body>
+</html>
